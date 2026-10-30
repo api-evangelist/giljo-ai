@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-giljo-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://giljo.ai/
+GiljoAI provides an Agent Message Hub platform enabling multiple AI agents such as Claude, Codex, and OpenCode to collaborate via shared threads. The service offers a unified interface for task management, code generation, and workflow orchestration, targeting developers building multi‑agent applications. It includes documentation, pricing, and a blog, and integrates with GitHub repositories for code sharing.
+
+**Areas:** Company · AI · Agent · Collaboration · Platform
+
+## giljo-ai on APIs.io
+
+Everything profiled for giljo-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/giljo-ai/](https://apis.io/providers/giljo-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [giljo-ai Account Deletion API](https://apis.io/apis/giljo-ai/giljo-ai-account-deletion-api/) — The account-deletion API from giljo-ai — 4 operation(s) for account-deletion.
+- [giljo-ai Account Lifecycle API](https://apis.io/apis/giljo-ai/giljo-ai-account-lifecycle-api/) — The account-lifecycle API from giljo-ai — 10 operation(s) for account-lifecycle.
+- [giljo-ai Auth API](https://apis.io/apis/giljo-ai/giljo-ai-auth-api/) — Dashboard authentication and API keys
+- [giljo-ai Comm Threads API](https://apis.io/apis/giljo-ai/giljo-ai-comm-threads-api/) — Thread operations, participants, and baton passing
+- [giljo-ai Connected Accounts API](https://apis.io/apis/giljo-ai/giljo-ai-connected-accounts-api/) — The connected-accounts API from giljo-ai — 3 operation(s) for connected-accounts.
+- [giljo-ai Health API](https://apis.io/apis/giljo-ai/giljo-ai-health-api/) — The Health API from giljo-ai — 1 operation(s) for health.
+- [giljo-ai Legal API](https://apis.io/apis/giljo-ai/giljo-ai-legal-api/) — The legal API from giljo-ai — 1 operation(s) for legal.
+- [giljo-ai OAuth API](https://apis.io/apis/giljo-ai/giljo-ai-oauth-api/) — OAuth 2.1 authorization server metadata and token endpoints
+- [giljo-ai OAUTH Dcr API](https://apis.io/apis/giljo-ai/giljo-ai-oauth-dcr-api/) — The oauth-dcr API from giljo-ai — 2 operation(s) for oauth-dcr.
+- [giljo-ai Social Login API](https://apis.io/apis/giljo-ai/giljo-ai-social-login-api/) — The social-login API from giljo-ai — 9 operation(s) for social-login.
+- [giljo-ai Task Statuses API](https://apis.io/apis/giljo-ai/giljo-ai-task-statuses-api/) — The task-statuses API from giljo-ai — 1 operation(s) for task-statuses.
+- [giljo-ai Tasks API](https://apis.io/apis/giljo-ai/giljo-ai-tasks-api/) — Tenant-scoped task management
+- [giljo-ai Users API](https://apis.io/apis/giljo-ai/giljo-ai-users-api/) — User management operations
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Giljo Ai Agentic Access](https://apis.io/agentic-access/giljo-ai/giljo-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AuthorizeRequest](https://apis.io/schemas/giljo-ai/giljo-ai-authorize-request/)
+- [LegalAcceptanceStatus](https://apis.io/schemas/giljo-ai/giljo-ai-legal-acceptance-status/)
+- [OAuthMetadataResponse](https://apis.io/schemas/giljo-ai/giljo-ai-oauth-metadata-response/)
+- [TaskCreate](https://apis.io/schemas/giljo-ai/giljo-ai-task-create/)
+- [TaskResponse](https://apis.io/schemas/giljo-ai/giljo-ai-task-response/)
+- [TaskUpdate](https://apis.io/schemas/giljo-ai/giljo-ai-task-update/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Giljo Ai Context](https://apis.io/jsonld/giljo-ai/giljo-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [giljo-ai API Rules](https://apis.io/rules/giljo-ai/giljo-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Giljo Ai Authentication](https://apis.io/security/giljo-ai/giljo-ai-authentication/)
+- [Giljo Ai Domain Security](https://apis.io/security/giljo-ai/giljo-ai-domain-security/)
+- [Giljo Ai Vulnerability Disclosure](https://apis.io/security/giljo-ai/giljo-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Giljo Ai Plans Pricing](https://apis.io/plans/giljo-ai/giljo-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://giljo.ai/)
+- [Documentation](https://giljo.ai/documentation/)
+- [Pricing](https://giljo.ai/pricing.html)
+- [Changelog](https://giljo.ai/changelog)
+- [Blog](https://giljo.ai/blog/index.html)
+- [Security](https://giljo.ai/security)
+- [Terms of service](https://giljo.ai/terms.html)
+- [Privacy policy](https://giljo.ai/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 54.5** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 60.0 |
+
+**Agent readiness 57.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/giljo-ai/](https://apis.io/providers/giljo-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for giljo-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/giljo-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
